@@ -13,7 +13,7 @@ public class TestController {
 	@Value("${spring.datasource.username}")
 	private String username;
 
-
+	// 주석 추가
 	@GetMapping("/hello")
 	public String test() {
 		return "Hello World" + url + username;
