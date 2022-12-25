@@ -19,4 +19,10 @@ public class TestController {
 		return "Hello World" + url + username;
 	}
 
+
+	@GetMapping()
+	public String test2() {
+		return "Hello World Test";
+	}
+
 }
